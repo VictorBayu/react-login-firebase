@@ -1,0 +1,25 @@
+[debug] [2020-05-18T13:21:59.479Z] ----------------------------------------------------------------------
+[debug] [2020-05-18T13:21:59.483Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-05-18T13:21:59.484Z] CLI Version:   8.2.0
+[debug] [2020-05-18T13:21:59.484Z] Platform:      win32
+[debug] [2020-05-18T13:21:59.484Z] Node Version:  v10.15.3
+[debug] [2020-05-18T13:21:59.490Z] Time:          Mon May 18 2020 20:21:59 GMT+0700 (Western Indonesia Time)
+[debug] [2020-05-18T13:21:59.491Z] ----------------------------------------------------------------------
+[debug] [2020-05-18T13:21:59.491Z] 
+[debug] [2020-05-18T13:21:59.525Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-18T13:21:59.528Z] > authorizing via signed-in user
+[debug] [2020-05-18T13:21:59.529Z] [iam] checking project react-login-firebase-38f9e for permissions ["firebase.projects.get"]
+[debug] [2020-05-18T13:21:59.537Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/react-login-firebase-38f9e:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-18T13:22:00.940Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 May 2020 13:22:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1173","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-18T13:22:00.943Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/react-login-firebase-38f9e  
+ 
+[debug] [2020-05-18T13:22:01.366Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 May 2020 13:22:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'D:\KULIAH\SEMESTER 6\PBF\PROJEK\login_firebase'...
+[info] 
+[debug] [2020-05-18T13:22:01.373Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/react-login-firebase-38f9e/webApps/-/config  
+ 
+[debug] [2020-05-18T13:22:02.191Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 May 2020 13:22:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
